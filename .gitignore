@@ -1,0 +1,11 @@
+Gemfile.lock
+.ruby-version
+
+/node_modules/
+package-lock.json
+yarn.lock
+
+/coverage/
+/spec/examples.txt
+
+/pkg/
