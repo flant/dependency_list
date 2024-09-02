@@ -20,7 +20,7 @@ module DependencyList
     end
 
     LICENSE_FILENAME_VARIANTS = %w[
-      LICENSE LICENCE LICENSE.txt License.txt LICENSE.md MIT-LICENSE MIT-LICENSE.md
+      LICENSE LICENCE LICENSE.txt License.txt LICENSE.md MIT-LICENSE MIT-LICENCE MIT-LICENSE.md
     ].freeze
 
     def initialize(dependency, config:, cache:)
