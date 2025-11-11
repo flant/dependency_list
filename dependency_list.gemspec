@@ -35,9 +35,9 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 3.1', '< 4'
 
-  spec.add_runtime_dependency 'alt_memery', '~> 2.0'
-  spec.add_runtime_dependency 'clamp', '~> 1.3'
-  spec.add_runtime_dependency 'dry-inflector', '~> 1.0'
-  spec.add_runtime_dependency 'faraday', '~> 2.9'
-  spec.add_runtime_dependency 'faraday-follow_redirects', '~> 0.3.0'
+  spec.add_dependency 'alt_memery', '~> 2.0'
+  spec.add_dependency 'clamp', '~> 1.3'
+  spec.add_dependency 'dry-inflector', '~> 1.0'
+  spec.add_dependency 'faraday', '~> 2.9'
+  spec.add_dependency 'faraday-follow_redirects', '~> 0.3.0'
 end
