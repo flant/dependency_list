@@ -18,8 +18,8 @@ group :development, :test do
 end
 
 group :development, :lint do
-  gem 'rubocop', '~> 1.63.5'
-  gem 'rubocop-performance', '~> 1.21.0'
-  gem 'rubocop-rake', '~> 0.6.0'
-  gem 'rubocop-rspec', '~> 2.29.2'
+  gem 'rubocop', '~> 1.81.7'
+  gem 'rubocop-performance', '~> 1.26.1'
+  gem 'rubocop-rake', '~> 0.7.1'
+  gem 'rubocop-rspec', '~> 3.7.0'
 end
